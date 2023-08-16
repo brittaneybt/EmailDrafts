@@ -1,5 +1,8 @@
+https://www.atlassian.com/git
+
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
-$ LS
+$ LS 
+//LS = Lists the contents of the current directory
 '3D Objects'
  AppData
 'Application Data'
@@ -41,14 +44,90 @@ $ LS
 
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
 $ git clone https://github.com/brittaneybt/EmailDrafts.git
+// Cloned the repository from GitHub (online) to my local machine
 Cloning into 'EmailDrafts'...
 warning: You appear to have cloned an empty repository.
 
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
 $ git status
+// Shows the status of the repository
 fatal: not a git repository (or any of the parent directories): .git
 
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
 $ cd EmailDrafts
+// CD = Change directory; goes down into a folder 
+To go up a folder, use CD ..
 
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitBashCMD.txt
+        InstallGit.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git add .
+// Git add . Adds all content changes to the next commit command; gathering all the changes
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   GitBashCMD.txt
+        new file:   InstallGit.html
+
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git commit -m "initial commit"
+// git commit -m "commit message"; gathers all the tracked changes locally as a summary; like a bookmark
+
+[main (root-commit) 3557271] initial commit
+ Committer: Brittaney Benson-Townsend <brittaney.benson-townsend@epromos.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 55 insertions(+)
+ create mode 100644 GitBashCMD.txt
+ create mode 100644 InstallGit.html
+
+ EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git branch
+// git branch lists any branches you're working on
+* main
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git remote
+// git remote lists all your remote places to push code to; GitHub repository = origin
+origin
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git push origin main
+// git push remote branch; how to push code from local machine to github; requires authentication
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 855 bytes | 855.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/brittaneybt/EmailDrafts.git
+ * [new branch]      main -> main
