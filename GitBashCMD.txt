@@ -1,0 +1,54 @@
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
+$ LS
+'3D Objects'
+ AppData
+'Application Data'
+ Contacts
+ Cookies
+'Creative Cloud Files'
+'Data Loader'
+ dataloader
+ Desktop
+ Documents
+ Downloads
+'ePromos Promotional Products'
+ Favorites
+ iCloudPhotos
+ IntelGraphicsProfiles
+ Links
+'Local Settings'
+ Music
+'My Documents'
+ NetHood
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive
+'OneDrive - ePromos Promotional Products'
+ OpenVPN
+ PrintHood
+ Recent
+'Saved Games'
+ Searches
+ SendTo
+'Start Menu'
+ Templates
+ Videos
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
+$ git clone https://github.com/brittaneybt/EmailDrafts.git
+Cloning into 'EmailDrafts'...
+warning: You appear to have cloned an empty repository.
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
+$ cd EmailDrafts
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
