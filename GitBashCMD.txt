@@ -1,4 +1,10 @@
 https://www.atlassian.com/git
+Summary
+$ cd EmailDrafts // Change directory; goes down into a folder 
+$ git status // Shows the status of the repository
+$ git add . // Adds all content changes to the next commit command
+$ git commit -m "updated GitBash notes" // "commit message"; gathers all the local changes as a summary with a message
+$ git push origin main // git push remote branch; how to push code from local machine to a remote like GitHub
 
 EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~
 $ LS 
@@ -131,3 +137,59 @@ Writing objects: 100% (4/4), 855 bytes | 855.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/brittaneybt/EmailDrafts.git
  * [new branch]      main -> main
+
+ EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GitBashCMD.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git add .
+// Adds all content changes to the next commit command
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   GitBashCMD.txt
+
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git commit -m "updated GitBash notes"
+// gathers all the tracked changes locally as a summary to commit
+[main 8c1530c] updated GitBash notes
+ Committer: Brittaney Benson-Townsend <brittaney.benson-townsend@epromos.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 81 insertions(+), 2 deletions(-)
+
+EPROMOS+Brittaney.benson-tow@bbensontow-pc02 MINGW64 ~/EmailDrafts (main)
+$ git push origin main
+// push the commit to GitHub
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.86 KiB | 1.86 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/brittaneybt/EmailDrafts.git
+   3557271..8c1530c  main -> main
