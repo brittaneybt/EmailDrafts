@@ -192,4 +192,4 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 1.86 KiB | 1.86 MiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/brittaneybt/EmailDrafts.git
-   3557271..8c1530c  main -> main
+   3557271..8c1530c  main -> main 
